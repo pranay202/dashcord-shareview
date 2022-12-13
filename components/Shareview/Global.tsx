@@ -1,17 +1,18 @@
 import { Experience } from "@prisma/client";
 import StringFilterItem from "components/FilterItems/StringFilterItem";
+import { ModifiedExperienceType } from "lib/interfaces";
 import moment from "moment";
 import Link from "next/link";
 import { useState } from "react";
 
 export type GlobalFeedProps = {
-  feed: Experience[];
+  feed: ModifiedExperienceType[];
   forAdmins: boolean;
 };
 
 export default function GlobalFeed({ feed, forAdmins }: GlobalFeedProps) {
-  const [experiences, setExperiences] = useState<Experience[]>(feed);
-  const [selectedFilter, setSelectedFilter] = useState("all");
+  const [experiences, setExperiences] = useState<ModifiedExperienceType[]>(feed);
+  const [selectedFilter, setSelectedFilter] = useState('all');
 
   return (
     <>

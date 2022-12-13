@@ -18,10 +18,13 @@ export default function ResourceAdminPage({ material }: ResourcePageProps) {
     <StudentsLayout>
       <div className='w-full min-h-full lg:min-w-[40rem] lg:min-h-[20rem] rounded-md shadow-none p-4'>
         {/* <h1 className='font-bold text-xl'>Shareview - Placement material</h1>
+        {/* <h1 className='font-bold text-xl'>Shareview - Placement material</h1>
         <span className='text-sm mt-4 italic text-slate-400'>
           Deliver placement material straight to your students
         </span> */}
+        </span> */}
 
+        {/* <form className='mt-10 border border-slate-400 rounded min-h-[5rem] p-2 bg-white w-10/12'>
         {/* <form className='mt-10 border border-slate-400 rounded min-h-[5rem] p-2 bg-white w-10/12'>
           <div className='flex flex-col pb-6'>
             <label className='text-lg font-semibold mr-5 pb-2 md:text-lg'>
