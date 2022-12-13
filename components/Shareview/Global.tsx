@@ -16,7 +16,7 @@ export default function GlobalFeed({ feed, forAdmins }: GlobalFeedProps) {
 
   return (
     <>
-      <div className='ml-auto mt-7'>
+      {/* <div className='ml-auto mt-7'>
         <ul className='flex flex-wrap m-1'>
           <StringFilterItem
             name={"Latest"}
@@ -67,7 +67,7 @@ export default function GlobalFeed({ feed, forAdmins }: GlobalFeedProps) {
             selected={selectedFilter == "criteria_dec"}
           />
         </ul>
-      </div>
+      </div> */}
       <div className='mt-7'>
         {experiences.map((experience) => (
           <div key={experience.id} className="flex flex-col gap-1 shadow-md break-words min-h-fit w-full mb-3 rounded-lg bg-white">

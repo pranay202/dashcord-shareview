@@ -22,7 +22,6 @@ export default function ResourceAdminPage({ material }: ResourcePageProps) {
         <span className='text-sm mt-4 italic text-slate-400'>
           Deliver placement material straight to your students
         </span> */}
-        </span> */}
 
         {/* <form className='mt-10 border border-slate-400 rounded min-h-[5rem] p-2 bg-white w-10/12'>
         {/* <form className='mt-10 border border-slate-400 rounded min-h-[5rem] p-2 bg-white w-10/12'>
