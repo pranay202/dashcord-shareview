@@ -59,7 +59,6 @@ export default function EventAdminPage({ event }: EventPageProps) {
   }
 
   async function handleDelete() {
-    console.log(`made a request to /api/incharge/events/${event.id}`);
     try {
       const res = await axios.delete(`/api/incharge/events/${event.id}`);
       if (res.status === 200) {

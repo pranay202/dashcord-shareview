@@ -26,7 +26,6 @@ export default function ExperiencePage({ experience }: ExpPageProps) {
       <div className='w-full min-h-full lg:min-w-[40rem] lg:min-h-[20rem] rounded-md shadow-none p-4'>
         <div className=' flex flex-col mb-7'>
           <h1 className='font-bold text-xl'>Shareview</h1>
-          <em className='text-sm text-slate-400'>Interview Experiences straight from college students</em>
           <Link href={'/tnp/shareview'}>
             <a className='mt-7 text-blue-800 font-semibold rounded flex items-center'>
               <svg

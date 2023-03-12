@@ -116,7 +116,7 @@ export default function ShareviewHome({ experiences }: ShareviewHomeProps) {
           </div>
         </div>
 
-        <div className='mt-4 list-none flex overflow-x-scroll'>
+        {/* <div className='mt-4 list-none flex overflow-x-scroll'>
           <StringFilterItem
             name='Latest'
             label='latest'
@@ -153,7 +153,7 @@ export default function ShareviewHome({ experiences }: ShareviewHomeProps) {
             selected={selectedFilter == 'criteriaLow'}
             onSelect={setSelectedFilter}
           />
-        </div>
+        </div> */}
 
         {view === 'global' && (
           <GlobalFeed feed={experiences} forAdmins={false} />
